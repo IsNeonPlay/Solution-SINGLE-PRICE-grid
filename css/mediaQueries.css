@@ -1,0 +1,36 @@
+@media screen and (min-width: 970px) {
+
+  /*************** MAIN ***************/
+  .main {
+    width: 637px;
+    max-height: 475px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  /******* Container 1 *******/
+  .main__article-1 {
+    grid-column: span 2;
+    gap: 0;
+  }
+  .main__article-1-title {
+    font-size: 20px;
+  }
+  .main__article-1-subtitle {
+    font-size: 12px;
+  }
+  .main__article-1-paragraph {
+    width: 550px;
+    font-size: 16px;
+  }
+  /******* Container 2 *******/
+  .main__article-2 {
+    border-radius: 0 0 0 var(--Border-Main);
+  }
+  /******* Container 3 *******/
+  .main__article-3:last-of-type {
+    border-radius: 0 0 var(--Border-Main) 0;
+  }
+
+}
